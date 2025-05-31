@@ -13,51 +13,34 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Python, Javascript and TS. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Machine Learning.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
+      <Row>
+  <Col md={8} className="home-about-description">
+    <h1 style={{ fontSize: "2.6em" }}>
+      LET ME <span className="purple"> INTRODUCE </span> MYSELF
+    </h1>
+    <p className="home-about-body">
+      I’m <b className="purple">Gaurav Singh</b>, a results-driven Software Engineer with a dual degree (B.Tech + M.Tech) from <b className="purple">IIT Bhubaneswar</b>. I specialize in full-stack development, distributed systems, and cloud-native architecture.
+      <br />
+      <br />
+      Over the past 2+ years, I’ve architected and deployed scalable microservices using technologies like <b className="purple">Python, FastAPI, Kafka</b>, and <b className="purple">MongoDB</b>, capable of handling 50,000+ concurrent requests monthly. My experience includes building event-driven systems, LLM-integrated applications, and automation-first DevOps pipelines.
+      <br />
+      <br />
+      I am proficient in languages such as <b className="purple">Python, JavaScript, TypeScript, and SQL</b>, and have hands-on experience with tools and platforms like <b className="purple">AWS, Azure, Kubernetes, Docker, and Terraform</b>. On the frontend, I enjoy working with <b className="purple">React.js</b> and <b className="purple">Next.js</b> to build intuitive user experiences.
+      <br />
+      <br />
+      My professional journey includes roles at <b className="purple">Cognitive View</b> and <b className="purple">Boossti S.A.</b>, where I’ve contributed to secure backend infrastructures, real-time processing systems, and production-grade user interfaces.
+      <br />
+      <br />
+      Outside of work, I’m passionate about <b className="purple">competitive programming</b>, with 1350+ problems solved on LeetCode (Knight; max rating: 2008), and I’m also an ICPC regionalist.
+    </p>
+  </Col>
+  <Col md={4} className="myAvtar">
+    <Tilt>
+      <img src={myImg} className="img-fluid" alt="avatar" />
+    </Tilt>
+  </Col>
+</Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
