@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://portfolio-axle-blazes-projects.vercel.app/" target="_blank">gauravsingh.tech</a>
+  <a href="https://portfolio-axle-blazes-projects.vercel.app/" target="_blank">Gaurav Singh</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/portfolio-demo.png" />
